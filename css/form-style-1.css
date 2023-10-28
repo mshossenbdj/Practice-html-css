@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    width: 100px;
+    height: 30px;
+    float: right;
+    background-color: red;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(3, 158, 3);
+}
+
+.continar {
+
+    padding: 20px;
+}
+
+.col-25 {
+    width: 25%;
+    float: left;
+    margin-top: 30px;
+}
+
+.col-75 {
+    width: 75%;
+    float: left;
+    margin-top: 30px;
+}
+
+#description {
+    width: 200px;
+    height: 70px;
+}
